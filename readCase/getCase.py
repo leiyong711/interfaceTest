@@ -7,6 +7,7 @@
 import xlrd
 
 
+# 获取测试用例
 def geteExcel(fname):
     bk = xlrd.open_workbook(fname)
     try:
